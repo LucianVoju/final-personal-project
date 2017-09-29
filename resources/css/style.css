@@ -14,7 +14,17 @@ body {
 }
 
 #header{
-    background-color: red;
+    display: flex;
+    flex-wrap:wrap;
+    background-image: url(../images/hero-image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+#top-navigation {
+    align-self:flex-start;
 }
 
 #top-navigation{
@@ -34,3 +44,19 @@ body {
     display: inline-block;
 }
 
+#top-navigation p{
+    color: #fff;
+}
+
+.top-nav-links li a:link,
+.top-nav-links li a:visited{
+    color: #fff;
+    text-decoration: none;
+    font-size: 90%;
+    text-transform: uppercase;
+}
+
+
+.hero-text-box{
+    color: #fff;
+}
