@@ -3,7 +3,7 @@
 *** (C) ZACH COLE 2016
 **/
 
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+
 
 /* UNIVERSAL */
 
@@ -23,7 +23,7 @@ body {
 * {
   font-family: 'Lato', Helvetica, sans-serif;
   color: #333447;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 /* TYPOGRAPHY */
@@ -99,12 +99,12 @@ p {
 }
 
 .row {
-  position: relative;
+  /*position: relative;*/
   width: 100%;
 }
 
 .row [class^="col"] {
-  float: left;
+  /*float: left;*/
   margin: 0.5rem 2%;
   min-height: 0.125rem;
 }
@@ -172,11 +172,11 @@ p {
   width: 96%;
 }
 
-.row::after {
+/*.row::after {
 	content: "";
 	display: table;
 	clear: both;
-}
+}*/
 
 .hidden-sm {
   display: none;
@@ -242,9 +242,9 @@ p {
   }
 }
 
-@media only screen and (min-width: 60em) { /* 960px */
+@media only screen and (min-width: 75em) { /* 1200 */
   .container {
-    width: 75%;
-    max-width: 60rem;
+    width: 90%;
+    max-width: 75rem;
   }
 }
